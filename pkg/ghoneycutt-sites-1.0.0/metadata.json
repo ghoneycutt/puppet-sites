@@ -1,0 +1,30 @@
+{
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "README": "9fd6e8f2c9190dabafec3032ff3758fe",
+    "tests/init.pp": "e862ea2fec56613d709cb3b7e17111bc",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "Modulefile": "99553e47a1603091e3d5ea424bc99f5b",
+    "manifests/init.pp": "25d99a871878d5c147f72b5d9320a0f3"
+  },
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/apache"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/generic"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/webalizer"
+    }
+  ],
+  "name": "ghoneycutt-sites",
+  "types": [
+
+  ]
+}
